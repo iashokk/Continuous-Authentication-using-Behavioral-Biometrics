@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".view.NameEnrollmentActivity">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="151dp"
+        android:layout_height="146dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-180dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/faceid" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="70dp"
+        android:fontFamily="@font/montmed"
+        android:textColor="@android:color/darker_gray"
+        android:text="Face ID"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="339dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="45dp"
+        android:textColor="@android:color/black"
+        android:paddingStart="16sp"
+        android:background="@color/gray"
+        android:paddingEnd="16sp" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-10dp"
+        android:text="@string/button_name" />
+
+</FrameLayout>

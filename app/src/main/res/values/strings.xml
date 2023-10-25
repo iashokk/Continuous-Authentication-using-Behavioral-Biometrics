@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="text_view">Look straight into the camera</string>
+    <string name="auth_msg">Confirm your identity with facial gestures</string>
+    <string name="app_msg">Congratulations, you have now successfully accessed your app!</string>
+    <string name="button_name">Set up Face ID</string>
+    <string name="button_reset">Reset</string>
+    <string name="button_save">Save</string>
+    <string name="button_next">Next</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_home">Home</string>
+    <string name="button_decision">Decision</string>
+    <string name="button_auth">Authenticate</string>
+    <string name="button_submit">Submit</string>
+    <string name="button_done">Done</string>
+    <string name="hint_name">Name</string>
+    <string name="app_name">BIOMATIX</string>
+
+    <string name="msg_input_name">Please input a real name</string>
+    <string name="msg_reset">Your movements have correctly been reset</string>
+    <string name="msg_incorrect">Incorrect! Please try again.</string>
+    <string name="msg_timeout">Incorrect! Wait 1 minute before trying again.</string>
+    <string name="menu_hint">Hint</string>
+</resources>
